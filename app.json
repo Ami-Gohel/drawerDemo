@@ -4,13 +4,16 @@
     "slug": "drawerDemo",
     "version": "1.0.0",
     "orientation": "portrait",
+    "entryPoint": "../../App.tsx",
+
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
-    "userInterfaceStyle": "automatic",
+    "scheme": "drawerDemo",
     "newArchEnabled": true,
+
     "ios": {
       "supportsTablet": true
     },
+
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
@@ -33,9 +36,7 @@
           "backgroundColor": "#ffffff"
         }
       ]
-    ],
-    "experiments": {
-      "typedRoutes": true
-    }
+    ]
+   
   }
 }
