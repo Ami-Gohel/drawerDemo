@@ -7,7 +7,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 1. Install dependencies
 
    ```bash
-   npm install
+   yarn install
    ```
 
 2. Start the app
@@ -16,35 +16,18 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
     npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+# Animated Drawer
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+This is an animated drawer component created using React Native, React Native Reanimated, and React Native Navigation.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+## Features
 
-When you're ready, run:
+- Drawer Navigation: Implement a smooth and customizable drawer navigation using React Native Reanimated. Users should be able to swipe from the edge of the screen to open the drawer, and swipe it back to close it.
 
-```bash
-npm run reset-project
-```
+- Nested Navigation: Showcase nested navigation within the drawer menu. This could include different sections or categories that expand into subcategories or individual screens.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- Header Integration: Integrate a header component that adapts to the current screen or section within the drawer navigation. This header should provide navigation controls like a back button or a menu icon to open/close the drawer.
 
-## Learn more
+- Animated Transitions: Utilize animations provided by React Native Reanimated to create smooth transitions between screens and when opening/closing the drawer.
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
